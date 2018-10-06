@@ -1,11 +1,12 @@
-import bookmarks_parser.parser as parser
+# import bookmarks_parser
+import bookmarks_parser
 
 
 def main():
     # set the bookmarks file path/name
     bookmarks_file_name = "bookmarks.html"
 
-    result = parser.parse_file(file_name=bookmarks_file_name)
+    result = bookmarks_parser.parse_file(file_name=bookmarks_file_name)
     print 'result', result
 
 
